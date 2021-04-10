@@ -55,7 +55,7 @@ def get_classes_dependency_graph(classes):
 def main():
     if len(argv) != 4:
         print(
-            "usage:\t%s <classycle1-output.xml> <module_dependencies.graphml> <class_dependencies.graphml>",
+            "usage:\t%s <classycle-output.xml> <module_dependencies.graphml> <class_dependencies.graphml>",
             file=stderr,
         )
         exit(2)
